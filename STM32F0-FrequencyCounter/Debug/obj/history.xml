@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F051R8 -DSTM32F0XX_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\STM32F0-FrequencyCounter\stm32_lib -I..\..\..\workspace\STM32F0-FrequencyCounter\stm32_lib\inc -I..\..\..\workspace\STM32F0-FrequencyCounter\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\STM32F0-FrequencyCounter\cmsis_core -I..\..\..\workspace\STM32F0-FrequencyCounter -I..\..\..">
+      <target file="stm32f0xx_spi.o" lastModified="14b4c7929b2">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_spi.c" lastModified="14b4b941ff5"/>
+      </target>
+      <target file="stm32f0xx_gpio.o" lastModified="14b4c793317">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="14b4b940d7b"/>
+      </target>
+      <target file="UC1701X.o" lastModified="14b4c792362">
+         <source file="..\..\..\UC1701X.c" lastModified="14b4c4ff1f7"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="14b4c791e4f">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="14b4b940d89"/>
+      </target>
+      <target file="stm32f0xx_adc.o" lastModified="14b4c7920fa">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_adc.c" lastModified="14b4b941501"/>
+      </target>
+      <target file="main.o" lastModified="14b4c7925d5">
+         <source file="..\..\..\main.c" lastModified="14b4c75a53b"/>
+      </target>
+      <target file="GFX.o" lastModified="14b4c792ddc">
+         <source file="..\..\..\GFX.c" lastModified="14b4bb7d774"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="14b4c7926d5">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="14b4b940d8c"/>
+      </target>
+      <target file="system_stm32f0xx_temp.o" lastModified="14b4c793081">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="14b4b940d91"/>
+      </target>
+   </processor>
+</history>

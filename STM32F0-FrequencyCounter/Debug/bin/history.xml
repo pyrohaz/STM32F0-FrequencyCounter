@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.4.1 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=STM32F0-FrequencyCounter.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\STM32F0-FrequencyCounter -TC:\CooCox\CoIDE\configuration\ProgramData\STM32F0-FrequencyCounter/arm-gcc-link.ld -g">
+      <target file="STM32F0-FrequencyCounter.elf" lastModified="14b4c793948">
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="14b4c791e4f"/>
+         <source file="..\obj\stm32f0xx_adc.o" lastModified="14b4c7920fa"/>
+         <source file="..\obj\UC1701X.o" lastModified="14b4c792362"/>
+         <source file="..\obj\main.o" lastModified="14b4c7925d5"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="14b4c7926d5"/>
+         <source file="..\obj\stm32f0xx_spi.o" lastModified="14b4c7929b2"/>
+         <source file="..\obj\GFX.o" lastModified="14b4c792ddc"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="14b4c793081"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="14b4c793317"/>
+      </target>
+   </processor>
+</history>
